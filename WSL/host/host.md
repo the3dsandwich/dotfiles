@@ -73,6 +73,12 @@ note: `--web-download` to not use Store, `--no-launch` to not launch after insta
 
 5. uninstall (unregister) (ex. Ubuntu 22.04): `wsl --unregister Ubuntu-22.04`
 
+```
+PS C:\Users\weiwei> wsl --unregister Ubuntu-22.04
+Unregistering.
+The operation completed successfully.
+```
+
 ## Install Podman on Host Windows
 
 1. install Podman: `winget install RedHat.Podman`
