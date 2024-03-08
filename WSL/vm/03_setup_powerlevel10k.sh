@@ -31,7 +31,10 @@ rm ~/.zshrc
     echo 'POWERLEVEL9K_MODE='nerdfont-complete''
     echo
     echo 'DEFAULT_USER=weiwei'
-) >>~/.zshrc
+    echo
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"'
+    echo
+) >> ~/.zshrc
 
 echo
 echo "restart shell to take into effect"
